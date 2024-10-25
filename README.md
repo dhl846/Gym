@@ -1,32 +1,25 @@
-# Neogym ASP.NET Core Integration
+# NeoGym Website Integration in ASP.NET Core 8.0
 
-This project integrates the **Neogym** HTML5 template from Free CSS into an ASP.NET Core application. The Neogym theme provides a clean, responsive design, perfect for fitness or sports-oriented websites. This project demonstrates how to incorporate a static HTML template with ASP.NET Core’s server-side capabilities.
+This project integrates the NeoGym website template, downloaded from [Free CSS](https://www.free-css.com/free-css-templates/page296/neogym), with ASP.NET Core 8.0.
 
-## Table of Contents
+## Project Structure
 
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+The project has been organized to separate frontend and backend logic, with ASP.NET Core 8.0 handling the backend API, routing, and any server-side processing, while the NeoGym HTML template manages the frontend UI.
 
-## Features
+### Folder Structure:
+- **/wwwroot** - Contains static assets (CSS, JS, images) from the NeoGym template.
+- **/Views** - Contains Razor pages and layout files integrated with the NeoGym HTML template.
+- **/Controllers** - Contains ASP.NET Core MVC controllers.
+- **/Models** - Contains data models used in the application.
 
-- **Responsive Design**: Uses Bootstrap, providing optimal display across devices.
-- **ASP.NET Core Integration**: Server-side rendering, routing, and MVC architecture.
-- **User-friendly Template**: Easily modifiable content, colors, and layout.
-- **Fitness Theme**: Layout and sections designed for gyms, fitness studios, and sports sites.
+## Getting Started
 
-## Prerequisites
+### Prerequisites
+- [.NET Core 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [Visual Studio](https://visualstudio.microsoft.com/) or any IDE that supports .NET Core development
 
-- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or higher
-- [Visual Studio](https://visualstudio.microsoft.com/) or any C# compatible IDE
-- Basic knowledge of ASP.NET Core MVC and Bootstrap (optional)
+### Installation
 
-## Installation
-
-1. **Clone the Repository**:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/dhl846/neogym-aspnetcore.git
+   git clone <repository-url>
